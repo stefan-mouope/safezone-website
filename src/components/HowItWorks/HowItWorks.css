@@ -1,0 +1,50 @@
+.how-it-works {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .hiw-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 3rem;
+  }
+  
+  .hiw-steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .hiw-step {
+    flex: 1;
+    min-width: 280px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: #f4f7fb;
+    transition: transform 0.3s ease;
+  }
+  
+  .hiw-step:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hiw-step img {
+    width: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .hiw-step h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hiw-step p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
