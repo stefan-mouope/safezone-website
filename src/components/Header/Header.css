@@ -73,4 +73,39 @@
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
   }
+
+  .menu-icon {
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  /* Responsive nav menu */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav {
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+      display: none;
+    }
+  
+    .nav.active {
+      display: block;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  
   
