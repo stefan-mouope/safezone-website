@@ -10,7 +10,6 @@ function HeroSection() {
         <a href="#contact" className="hero-btn">Commencer</a>
       </div>
       <div className="hero-image">
-        <img src={img} alt="Femme avec téléphone et carte" />
       </div>
     </section>
   );
